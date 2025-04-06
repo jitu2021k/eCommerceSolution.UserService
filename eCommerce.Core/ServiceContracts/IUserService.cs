@@ -9,7 +9,7 @@ namespace eCommerce.Core.ServiceContracts
         /// </summary>
         /// <param name="loginRequest"></param>
         /// <returns></returns>
-        Task<AuhenticationResponse?> Login(LoginRequest loginRequest);
-        Task<AuhenticationResponse?> Register(RegisterRequest registerRequest);
+        Task<AuthenticationResponse?> Login(LoginRequest loginRequest);
+        Task<AuthenticationResponse?> Register(RegisterRequest registerRequest);
     }
 }
