@@ -35,7 +35,7 @@ namespace eCommerce.Infrastructure.Repositories
         public async Task<ApplicationUser?> GetUserByEmailOrPassword(string? email, string? password)
         {
 
-            //SQL Query to select  a user by Email and PAssword
+            //SQL Query to select  a user by Email and Password
 
             string query = "SELECT * FROM public.\"Users\" WHERE \"Email\" = @Email AND " +
                 "\"Password\" = @Password";
