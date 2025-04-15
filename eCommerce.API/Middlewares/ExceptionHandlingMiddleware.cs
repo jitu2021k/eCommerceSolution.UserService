@@ -17,6 +17,11 @@ public class ExceptionHandlingMiddleware
         _logger = logger;
     }
 
+    /// <summary>
+    /// test comment
+    /// </summary>
+    /// <param name="httpContext"></param>
+    /// <returns></returns>
     public async Task Invoke(HttpContext httpContext)
     {
         try
